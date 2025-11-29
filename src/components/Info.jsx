@@ -50,7 +50,7 @@ const Info = () => {
     >
       <p
         id="paragraph"
-        className="text-[#F0F0F0] w-full px-15 lg:w-1/2 lg:text-2xl font-medium text-center leading-10"
+        className="text-[#F0F0F0] w-full px-15 lg:w-1/2 text-xl lg:text-2xl font-medium text-center leading-10"
       >
         I'm Muhammad Hamza - A passionate software developer building scalable
         web and intelligent solutions using the MERN stack, C, C++, Python,

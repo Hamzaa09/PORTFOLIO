@@ -9,11 +9,11 @@ const InfiniteScroll = () => {
         <ul className="flex overflow-hidden">
           {list.map((item, index) => (
             <li key={index} className="flex justify-center items-center gap-5">
-              <h2 className="font-[pfThree] text-[120px] lg:text-[128px] font-extrabold text-[#E0F11F] leading-none ml-5">
+              <h2 className="font-[pfThree] text-[90px] lg:text-[128px] font-extrabold text-[#E0F11F] leading-none ml-5">
                 {item}
               </h2>
 
-              <div className="w-10 h-10">
+              <div className="w-8 h-8 lg:w-10 lg:h-10">
                 <svg viewBox="0 0 32 32" id="svg11225229842">
                   <path
                     d="M 15.167 32 C 13.935 24.94 6.989 18.305 0 16.833 L 0 15.083 C 7.033 13.403 13.791 7.294 15.167 0 L 16.917 0 C 18.113 7.107 25.028 13.562 32 15.083 L 32 16.833 C 25.157 18.251 18.071 24.909 16.917 32 Z"
@@ -30,11 +30,11 @@ const InfiniteScroll = () => {
         <ul className="flex overflow-hidden">
           {list.map((item, index) => (
             <li key={index} className="flex justify-center items-center gap-5">
-              <h2 className="font-[pfThree] text-[120px] lg:text-[128px] font-extrabold text-[#E0F11F] leading-none ml-5">
+              <h2 className="font-[pfThree] text-[90px] lg:text-[128px] font-extrabold text-[#E0F11F] leading-none ml-5">
                 {item}
               </h2>
 
-              <div className="w-10 h-10">
+              <div className="w-8 h-8 lg:w-10 lg:h-10">
                 <svg viewBox="0 0 32 32" id="svg11225229842">
                   <path
                     d="M 15.167 32 C 13.935 24.94 6.989 18.305 0 16.833 L 0 15.083 C 7.033 13.403 13.791 7.294 15.167 0 L 16.917 0 C 18.113 7.107 25.028 13.562 32 15.083 L 32 16.833 C 25.157 18.251 18.071 24.909 16.917 32 Z"

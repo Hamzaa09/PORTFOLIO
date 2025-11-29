@@ -66,18 +66,18 @@ export default function Nav() {
               className="menu-button group hamburger w-fit h-fit flex flex-col gap-2.5 hover:cursor-pointer text-white p-2"
             >
               <span
-                className={`first-bar h-0.5 rounded-2xl w-9 bg-white group-hover:bg-white/50 duration-300 ${
-                  !isMenuOpen ? "group-hover:w-7" : ""
+                className={`first-bar h-0.5 rounded-2xl w-8 lg:w-9 bg-white group-hover:bg-white/50 duration-300 ${
+                  !isMenuOpen ? "group-hover:w-6 group-hover:lg:w-7" : ""
                 }`}
               />
               <span
-                className={`second-bar h-0.5 rounded-2xl w-5 bg-white group-hover:bg-white/50 duration-300 ${
-                  !isMenuOpen ? "group-hover:w-9" : ""
+                className={`second-bar h-0.5 rounded-2xl w-4 lg:w-5 bg-white group-hover:bg-white/50 duration-300 ${
+                  !isMenuOpen ? "group-hover:w-8 group-hover:lg:w-9" : ""
                 } `}
               />
               <span
-                className={`third-bar h-0.5 rounded-2xl w-7 bg-white group-hover:bg-white/50 duration-300 ${
-                  !isMenuOpen ? "group-hover:w-5" : ""
+                className={`third-bar h-0.5 rounded-2xl w-6 lg:w-7 bg-white group-hover:bg-white/50 duration-300 ${
+                  !isMenuOpen ? "group-hover:w-4 group-hover:lg:w-5" : ""
                 }`}
               />
             </button>
@@ -85,9 +85,11 @@ export default function Nav() {
             {/* Mobile Menu Dropdown */}
             <div
               ref={menubar}
-              className="menu-bar rounded-xl absolute top-10 mx-4 py-4 sm:px-6 h-fit w-fit z-50 bg-[#121212]"
+              className={`menu-bar rounded-xl absolute top-10 mx-4 py-4 sm:px-6 h-fit w-fit z-50 bg-[#121212] ${
+                !isMenuOpen ? "pointer-events-none" : ""
+              }`}
             >
-              <nav className="flex flex-col">
+              <nav className="flex flex-col px-4">
                 <a
                   onClick={() => setIsMenuOpen(false)}
                   href="#home"
@@ -136,7 +138,7 @@ export default function Nav() {
           <div className="absolute left-1/2 transform -translate-x-1/2">
             <svg
               viewBox="0 0 300 120"
-              className="h-16 lg:h-18 w-auto"
+              className="h-13 lg:h-18 w-auto"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path

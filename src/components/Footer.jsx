@@ -16,11 +16,11 @@ const Footer = () => {
               key={index}
               className="flex justify-center items-center w-fit group"
             >
-              <h2 className="font-[pfThree] text-[320px] font-extrabold text-[#E0F11F] ml-10 leading-none mt-10 group-hover:text-[#f0f0f0] group-hover:line-through group-hover:cursor-pointer">
+              <h2 className="font-[pfThree] text-[240px] lg:text-[320px] font-extrabold text-[#E0F11F] ml-10 leading-none mt-10 group-hover:text-[#f0f0f0] group-hover:line-through group-hover:cursor-pointer">
                 {item}
               </h2>
 
-              <div className="w-15 h-15 ml-10">
+              <div className="w-13 h-13 lg:w-15 lg:h-15 ml-10">
                 <svg viewBox="0 0 32 32" id="svg11225229842">
                   <path
                     d="M 15.167 32 C 13.935 24.94 6.989 18.305 0 16.833 L 0 15.083 C 7.033 13.403 13.791 7.294 15.167 0 L 16.917 0 C 18.113 7.107 25.028 13.562 32 15.083 L 32 16.833 C 25.157 18.251 18.071 24.909 16.917 32 Z"
