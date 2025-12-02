@@ -20,6 +20,17 @@ const Hero = () => {
       ease: "expo.out",
     })
       .from(
+        "#profile-pic",
+        {
+          delay: 0.3,
+          scale: 0,
+          duration: 1.5,
+          opacity: 0,
+          ease: "expo.out",
+        },
+        "<0.2"
+      )
+      .from(
         tagLine.words,
         {
           yPercent: 200,
@@ -28,7 +39,7 @@ const Hero = () => {
           opacity: 0,
           ease: "expo.out",
         },
-        "<0.4"
+        "<0.1"
       )
       .from(
         "#mainText2",
@@ -87,6 +98,7 @@ const Hero = () => {
       <div className="relative flex flex-col justify-start items-center gap-0">
         <div
           ref={flairRef}
+          id="profile-pic"
           className="absolute top-[12%] left-[30%] lg:top-[22%] lg:left-[38%] w-25 h-40 lg:w-45 lg:h-70 z-10 rounded-full overflow-hidden shadow-xl/30"
         >
           <img
