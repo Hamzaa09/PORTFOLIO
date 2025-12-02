@@ -56,7 +56,7 @@ export default function Nav() {
   }, [isMenuOpen]);
 
   return (
-    <header className="sticky top-0 z-10 bg-[#121212] text-white h-fit pt-5">
+    <header className="sticky top-0 z-20 bg-[#121212] text-white h-fit pt-5">
       <div className="max-w-[987px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 sm:h-20">
           <div className="relative">

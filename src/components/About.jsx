@@ -27,6 +27,18 @@ const About = () => {
       duration: 1.2,
       ease: "expo.out",
     });
+
+    gsap.from("#divs", {
+      scrollTrigger: {
+        trigger: "#divs",
+        start: "top bottom",
+        end: "+=100",
+      },
+      yPercent: 10,
+      opacity: 0,
+      duration: 1.2,
+      ease: "expo.out",
+    });
   });
   return (
     <section
@@ -72,7 +84,7 @@ const About = () => {
             </p>
           </div>
 
-          <div className="mt-10 flex flex-col gap-3 relative">
+          <div id="divs" className="mt-10 flex flex-col gap-3 relative">
             <div className="shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.1)] sticky top-30 z-6 bg-[#E0F11F] my-2 rounded-xl flex justify-between px-4 py-8 items-center">
               <div className="w-1/2">
                 <h4 className="font-semibold text-2xl">MERN Stack</h4>
