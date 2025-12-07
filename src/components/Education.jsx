@@ -89,7 +89,7 @@ const Education = () => {
           <div className="group relative h-fit flex flex-col gap-7">
             <div className="flex flex-col gap-2">
               <h4 className="font-[pfFour] text-[#f0f0f0] text-xl">
-                Intermediate in Computer Science
+                Intermediate
               </h4>
               <span className="font-[pfOne] font-semibold text-[#f0f0f080]">
                 Formen College, Karachi <br />

@@ -2,10 +2,21 @@ import React, { useState } from "react";
 import Marquee from "react-fast-marquee";
 
 const Footer = () => {
-  const list = ["FB", "INS", "LI", "TW"];
+  const list = [
+    {
+      name: "FB",
+      link: "https://www.facebook.com/profile.php?id=100028870688884",
+    },
+    { name: "INS", link: "https://www.instagram.com/m.hamza_101/" },
+    { name: "GH", link: "https://github.com/Hamzaa09/" },
+    {
+      name: "LI",
+      link: "https://www.linkedin.com/in/muhammad-hamza-109413300/",
+    },
+  ];
 
   return (
-    <section className="bg-[#121212] sticky bottom-0 pt-25 flex flex-col gap-3 justify-center h-[320px] overflow-hidden z-[-10]">
+    <section className="bg-[#121212] sticky bottom-0 pt-25 flex flex-col gap-3 justify-center h-[320px] overflow-hidden z-10">
       <Marquee
         speed={100}
         className="overflow-hidden absolute bottom-[-20px] left-0 z-30"
@@ -14,12 +25,13 @@ const Footer = () => {
           {list.map((item, index) => (
             <li
               key={index}
-              className="flex justify-center items-center w-fit group"
+              className="flex justify-center items-center w-fit group hover:text-white"
             >
               <h2 className="font-[pfThree] text-[240px] lg:text-[320px] font-extrabold text-[#E0F11F] ml-10 leading-none mt-10 group-hover:text-[#f0f0f0] group-hover:line-through group-hover:cursor-pointer">
-                {item}
+                <a href={item.link} target="_blank">
+                  {item.name}
+                </a>
               </h2>
-
               <div className="w-13 h-13 lg:w-15 lg:h-15 ml-10">
                 <svg viewBox="0 0 32 32" id="svg11225229842">
                   <path

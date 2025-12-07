@@ -133,7 +133,7 @@ const About = () => {
               </div>
 
               <div className="text-6xl px-4 border-1 border-[#E0F11F] border-l-[#1212124D] font-bold text-[#1212124D] text-center w-1/2">
-                75%
+                95%
               </div>
             </div>
           </div>

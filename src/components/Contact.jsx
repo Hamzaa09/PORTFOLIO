@@ -115,7 +115,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="max-w-[987px] mx-auto px-4 sm:px-6 lg:px-8 bg-[#121212] pt-40 z-20"
+      className="max-w-[987px] mx-auto px-4 sm:px-6 lg:px-8 bg-[#121212] pt-40 z-20 pb-10"
     >
       <div
         id="contact-head"

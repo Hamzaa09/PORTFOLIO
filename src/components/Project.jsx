@@ -22,7 +22,7 @@ const Project = () => {
         start: "top 90%",
         end: "+=300",
       },
-      yPercent: 20,
+      yPercent: 100,
       opacity: 0,
       duration: 1,
       stagger: 0.06,
@@ -35,7 +35,7 @@ const Project = () => {
         start: "top 90%",
         end: "+=300",
       },
-      yPercent: 20,
+      yPercent: 100,
       opacity: 0,
       duration: 1,
       stagger: 0.06,
@@ -66,45 +66,49 @@ const Project = () => {
       <div className="flex flex-col mt-10">
         <div id="top-grid" className="grid lg:grid-cols-2 gap-5 my-5">
           <a
-            href="https://mern-chat-app-client-six.vercel.app"
+            href="https://e-commerce-store-clientside.vercel.app"
             target="blank"
             className="group relative rounded-md h-70 overflow-hidden hover:cursor-pointer"
           >
             <img
-              src="/image4.png"
-              alt="chat-app"
-              className="object-fit w-full h-full group-hover:scale-120 duration-500 rounded-md"
-            />
-
-            <span className="absolute left-[-200px] bottom-0 group-hover:left-0 group-hover:opacity-100 duration-500 bg-[#e0f11f] opacity-0 p-5 font-semibold text-xl rounded-tr-xl">
-              Chat App
-            </span>
-          </a>
-
-          <a
-            href="https://e-commerce-store-clientside.vercel.app"
-            target="blank"
-            className="group relative bg-blue-500 rounded-md h-70 overflow-hidden hover:cursor-pointer"
-          >
-            <img
-              src="/image3.png"
+              src="/project_3.jpg"
               alt="e-commerce-store"
-              className="object-fit w-full h-full group-hover:scale-120 duration-500 rounded-md"
+              className="object-cover w-full h-full group-hover:scale-105 duration-500 rounded-md"
             />
 
             <span className="absolute left-[-200px] bottom-0 group-hover:left-0 group-hover:opacity-100 duration-500 bg-[#e0f11f] opacity-0 p-5 font-semibold text-xl rounded-tr-xl">
               E-Commerce Store
             </span>
           </a>
+
+          <a
+            href="https://mern-chat-app-client-six.vercel.app"
+            target="blank"
+            className="group relative rounded-md h-70 overflow-hidden hover:cursor-pointer"
+          >
+            <img
+              src="/project_5.png"
+              alt="chat-app"
+              className="object-contain w-full h-full group-hover:scale-105 duration-500 rounded-md"
+            />
+
+            <span className="absolute left-[-200px] bottom-0 group-hover:left-0 group-hover:opacity-100 duration-500 bg-[#e0f11f] opacity-0 p-5 font-semibold text-xl rounded-tr-xl">
+              Chat Application
+            </span>
+          </a>
         </div>
 
         <div id="bottom-grid" className="grid lg:grid-cols-2 gap-5 lg:my-5">
           <a
-            href="https://mern-chat-app-client-six.vercel.app"
+            href="https://mojito-gsap-omega.vercel.app/"
             target="blank"
-            className="group relative bg-blue-500 rounded-md h-70 overflow-hidden hover:cursor-pointer"
+            className="group relative rounded-md h-70 overflow-hidden hover:cursor-pointer"
           >
-            <img src="" alt="" />
+            <img
+              src="/project_6.png"
+              alt=""
+              className="object-cover w-full h-full group-hover:scale-105 duration-500 rounded-md"
+            />
 
             <span className="absolute left-[-200px] bottom-0 group-hover:left-0 group-hover:opacity-100 duration-500 bg-[#e0f11f] opacity-0 p-5 font-semibold text-xl rounded-tr-xl">
               Animated Website
@@ -112,11 +116,15 @@ const Project = () => {
           </a>
 
           <a
-            href="https://e-commerce-store-clientside.vercel.app"
+            href="https://www.linkedin.com/feed/update/urn:li:activity:7403464015386959873/"
             target="blank"
-            className="group relative bg-blue-500 rounded-md h-70 overflow-hidden hover:cursor-pointer"
+            className="group relative rounded-md h-70 overflow-hidden hover:cursor-pointer"
           >
-            <img src="" alt="" />
+            <img
+              src="/project_7.png"
+              alt=""
+              className="object-cover w-full h-full group-hover:scale-105 duration-500 rounded-md"
+            />
 
             <span className="absolute left-[-200px] bottom-0 group-hover:left-0 group-hover:opacity-100 duration-500 bg-[#e0f11f] opacity-0 p-5 font-semibold text-xl rounded-tr-xl">
               Hand As Controller

@@ -16,7 +16,7 @@ gsap.registerPlugin(SplitText, ScrollTrigger);
 function App() {
   return (
     <>
-      <div className=" w-full h-fit bg-[#121212]">
+      <div className="sticky w-full h-fit bg-[#121212] z-50">
         <Nav />
         <Hero />
         <Info />
