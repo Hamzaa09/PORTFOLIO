@@ -89,7 +89,7 @@ const Project = () => {
             <img
               src="/project_5.png"
               alt="chat-app"
-              className="object-contain w-full h-full group-hover:scale-105 duration-500 rounded-md"
+              className="object-cover w-full h-full group-hover:scale-105 duration-500 rounded-md"
             />
 
             <span className="absolute left-[-200px] bottom-0 group-hover:left-0 group-hover:opacity-100 duration-500 bg-[#e0f11f] opacity-0 p-5 font-semibold text-xl rounded-tr-xl">

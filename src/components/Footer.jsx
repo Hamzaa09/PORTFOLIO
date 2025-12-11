@@ -16,7 +16,7 @@ const Footer = () => {
   ];
 
   return (
-    <section className="bg-[#121212] sticky bottom-0 pt-25 flex flex-col gap-3 justify-center h-[320px] overflow-hidden z-10">
+    <section className="bg-[#121212] sticky bottom-0 pt-20 flex flex-col gap-3 justify-center h-[320px] overflow-hidden z-10">
       <Marquee
         speed={100}
         className="overflow-hidden absolute bottom-[-20px] left-0 z-30"
