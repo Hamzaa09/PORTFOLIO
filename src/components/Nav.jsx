@@ -55,6 +55,18 @@ export default function Nav() {
     isMenuOpen ? tl.current.play() : tl.current.reverse();
   }, [isMenuOpen]);
 
+  const handleClick = () => {
+    gsap.fromTo(
+      ".slider",
+      { xPercent: 350 },
+      {
+        xPercent: 900,
+        duration: 0.6,
+        ease: "power3.inOut",
+      }
+    );
+  };
+
   return (
     <header className="sticky top-0 z-20 bg-[#121212] text-white h-fit pt-5">
       <div className="max-w-[987px] mx-auto px-4 sm:px-6 lg:px-8">
@@ -162,11 +174,24 @@ export default function Nav() {
           </div>
 
           {/* Right side buttons */}
-          <div className="flex items-center gap-2 sm:gap-3">
+          <div className="relative flex items-center gap-2 sm:gap-3 mb-5">
             {/* Remix Button */}
-            <button className="px-8 sm:px-10 py-2.5 bg-white text-black rounded-full font-medium transition-colors text-sm sm:text-base hover:bg-[#E0F11F] hover:cursor-pointer active:translate-y-1 duration-500">
-              CV
-            </button>
+            <a
+              href="/Resume-Muammad_Hamza.pdf"
+              download={"Resume-Muammad_Hamza.pdf"}
+            >
+              <button
+                onClick={handleClick}
+                className="relative px-8 sm:px-10 py-2.5 border-2 border-[rgb(36,34,38)] bg-white text-black rounded-full font-medium transition-colors text-sm sm:text-base hover:cursor-pointer active:translate-y-1 duration-500 z-30 overflow-hidden"
+              >
+                <span className="slider h-[150%] w-[20%] bg-[rgba(0,0,0,0.1)] absolute left-[-80%] top-[-30%] rotate-160"></span>
+                CV
+              </button>
+            </a>
+            <span className="w-full h-full absolute top-2 left-0 bg-white rounded-full z-10 border-2 border-[rgb(36,34,38)] flex justify-center items-center">
+              <span className="w-[60%] h-full bg-white border-2 border-b-transparent border-[rgb(36,34,38)] z-20"></span>
+            </span>
+            <span className="w-full h-full absolute top-3 left-0 bg-white/60 rounded-full border-2 border-[rgb(36,34,38)]"></span>
           </div>
         </div>
       </div>
