@@ -182,7 +182,7 @@ export default function Nav() {
             >
               <button
                 onClick={handleClick}
-                className="relative px-8 sm:px-10 py-2.5 border-2 border-[rgb(36,34,38)] bg-white text-black rounded-full font-medium transition-colors text-sm sm:text-base hover:cursor-pointer active:translate-y-1 duration-500 z-30 overflow-hidden"
+                className="relative px-7 sm:px-10 py-2 border-2 border-[rgb(36,34,38)] bg-white text-black rounded-full font-medium transition-colors text-sm sm:text-base hover:cursor-pointer active:translate-y-1 duration-500 z-30 overflow-hidden"
               >
                 <span className="slider h-[150%] w-[20%] bg-[rgba(0,0,0,0.1)] absolute left-[-80%] top-[-30%] rotate-160"></span>
                 CV
