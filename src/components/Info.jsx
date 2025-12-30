@@ -52,9 +52,8 @@ const Info = () => {
         id="paragraph"
         className="text-[#F0F0F0] w-full px-15 lg:w-1/2 text-xl lg:text-2xl font-medium text-center leading-10"
       >
-        I'm Muhammad Hamza - A passionate software developer building scalable
-        web and intelligent solutions using the MERN stack, C, C++, Python,
-        Java, and OpenCV.
+        I'm Muhammad Hamza - A passionate Web developer building scalable
+        web solutions using the MERN stack.
       </p>
 
       <div

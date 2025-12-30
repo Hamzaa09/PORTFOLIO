@@ -100,27 +100,27 @@ const About = () => {
 
             <div className="shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.1)] sticky top-30 z-7 bg-[#E0F11F] my-2 rounded-xl flex justify-between px-4 py-8 items-center">
               <div className="w-1/2">
-                <h4 className="font-semibold text-2xl">Programming</h4>
+                <h4 className="font-semibold text-2xl">FrontEnd</h4>
                 <p className="text-lg mt-2 leading-6 pr-3">
-                  Python, C, C++, Java - coding & problem-solving
+                  React, Tailwind, ShadCN, Zustand, Redux, GSAP.
                 </p>
               </div>
 
               <div className="text-6xl px-4 border-1 border-[#E0F11F] border-l-[#1212124D] font-bold text-[#1212124D] text-center w-1/2">
-                85%
+                95%
               </div>
             </div>
 
             <div className="shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.1)] sticky top-30 z-8 bg-[#E0F11F] my-2 rounded-xl flex justify-between px-4 py-8 items-center">
               <div className="w-1/2">
-                <h4 className="font-semibold text-2xl">OpenCV</h4>
+                <h4 className="font-semibold text-2xl">BackEnd</h4>
                 <p className="text-lg mt-2 leading-6 pr-3">
-                  Computer vision & image processing
+                  NodeJS, Express, MongoDB, RESTAPI, TypeScript.
                 </p>
               </div>
 
               <div className="text-6xl px-4 border-1 border-[#E0F11F] border-l-[#1212124D] font-bold text-[#1212124D] text-center w-1/2">
-                80%
+                90%
               </div>
             </div>
 
@@ -133,7 +133,7 @@ const About = () => {
               </div>
 
               <div className="text-6xl px-4 border-1 border-[#E0F11F] border-l-[#1212124D] font-bold text-[#1212124D] text-center w-1/2">
-                95%
+                85%
               </div>
             </div>
           </div>

@@ -75,7 +75,7 @@ const Hero = () => {
     });
 
     const handleMove = (e) => {
-      const drift = 0.02; // 0.05 = subtle, 0.2 = stronger
+      const drift = 0.03; // 0.05 = subtle, 0.2 = stronger
 
       xTo(e.clientX * drift);
       yTo(e.clientY * drift);
